@@ -21,13 +21,19 @@ setup go debugger environment in macos
 
 9) launch.json is required to invoke the go binary
 
-10) run command+shift+B for running the task.json to run the dlv debugger. if this is not working for some reason, then 
+10) run go mod init
+
+11) run go build
+
+12) run command+shift+B for running the task.json to run the dlv debugger. if this is not working for some reason, then 
 copy the command and run it in the terminal manually. and then run the debugger using Run option -> Start Debuggings
 
-11) when you hit the scanf in the source code, go to the delve debugger and give the input. To exit the code loop, run ctrl+D 
+13) when you hit the scanf in the source code, go to the delve debugger and give the input. To exit the code loop, run ctrl+D 
 EOF which exits the scanf loop
 
-12) If the 'F11' function key resolves to Desktop view, then Go to 'System preferences' --> Keyboard --> shortcuts --> untick 'Show Desktop'. to redefine Function keys use the keyboard menu and tick 'Use F1, F2 etc' option
+14) If the 'F11' function key resolves to Desktop view, then Go to 'System preferences' --> Keyboard --> shortcuts --> untick 'Show Desktop'. to redefine Function keys use the keyboard menu and tick 'Use F1, F2 etc' option
+
+
 
 
 # helpful links:

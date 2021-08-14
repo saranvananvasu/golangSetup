@@ -21,6 +21,9 @@ setup go debugger environment in macos
 
 9) launch.json is required to invoke the go binary
 
+10) remove both json files if your code is not expecting any user input. just run debug and dlv will run the debug sessions. 
+these both json files are ONLY needed if you want to capture any user input as part of the debug session
+
 10) run go mod init
 
 11) run go build

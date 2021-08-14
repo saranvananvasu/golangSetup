@@ -21,6 +21,13 @@ setup go debugger environment in macos
 
 9) launch.json is required to invoke the go binary
 
+10) run command+shift+B for running the task.json to run the dlv debugger. if this is not working for some reason, then 
+copy the command and run it in the terminal manually. and then run the debugger using Run option -> Start Debuggings
+
+11) when you hit the scanf in the source code, go to the delve debugger and give the input. To exit the code loop, run ctrl+D 
+EOF which exits the scanf loop
+
+
 # helpful links:
 
 VS Code installation link:

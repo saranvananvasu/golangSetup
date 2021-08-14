@@ -27,6 +27,8 @@ copy the command and run it in the terminal manually. and then run the debugger 
 11) when you hit the scanf in the source code, go to the delve debugger and give the input. To exit the code loop, run ctrl+D 
 EOF which exits the scanf loop
 
+12) If the 'F11' function key resolves to Desktop view, then Go to 'System preferences' --> Keyboard --> shortcuts --> untick 'Show Desktop'. to redefine Function keys use the keyboard menu and tick 'Use F1, F2 etc' option
+
 
 # helpful links:
 
